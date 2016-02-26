@@ -1,0 +1,19 @@
+{
+  "name": "react-pure-stateless",
+  "version": "1.0.0",
+  "description": "HoC to make your React stateless component real pure.",
+  "main": "./index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/cerisier/react-pure-stateless.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Corentin Kerisit <c@42.am>",
+  "keywords": "react, pure, stateless, component, hoc",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-pure-render": "^1.0.2"
+  }
+}
