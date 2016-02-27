@@ -5,7 +5,7 @@ HoC to make your React stateless component real pure.
 This is a simple general helper to get around stateless components not being strictly speaking pure;
 Given the same props, it still renders everytime.
 
-See facebook/react#5677
+See [facebook/react#5677](https://github.com/facebook/react/issues/5677)
 
 This high order component leverages the [react-pure-render](http://github.com/gaearon/react-pure-render) module to wrap
 your stateless component into a class component with pure shouldComponentUpdate behavior.
