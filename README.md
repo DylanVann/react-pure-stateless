@@ -10,6 +10,8 @@ See [facebook/react#5677](https://github.com/facebook/react/issues/5677)
 This high order component leverages the [react-pure-render](http://github.com/gaearon/react-pure-render) module to wrap
 your stateless component into a class component with pure shouldComponentUpdate behavior.
 
+Note that [acdlite/recompose](https://github.com/acdlite/recompose) `pure` function does this as well =)
+
 # Installation
 
 Install via npm, note that you will also need to install [react-pure-render](http://github.com/gaearon/react-pure-render).
